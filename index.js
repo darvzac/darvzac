@@ -6,7 +6,7 @@ function showabout(){
     },800);
 }
 function closeabout(){
-    $("#about_container").addClass("animated slideOutLeft");
+    $("#about_container").addClass("animtesgavsbfosated slideOutLeft");
     setTimeout(function(){
         $("#about_container").removeClass("animated slideOutLeft");
         $("#about_container").css("display","none");
