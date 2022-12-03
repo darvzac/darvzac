@@ -1,0 +1,198 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap";
+
+body {
+	font-family: "Inter";
+	background-color: var(--body-bg);
+	color: white;
+    text-decoration: none
+}
+
+html {
+	background-color: var(--body-bg);
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #1f2937;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--body-bg);
+}
+
+img {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 640px) {
+	.padding {
+		padding-left: 23%;
+		padding-right: 23%
+	}
+	.head {
+		padding-top: 3%
+	}
+	.section {
+		padding-top: 4%
+	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 10px;
+	}
+	.grid-container > div {
+		text-align: left;
+	}
+	.lea-ym-np {
+		display: none
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.padding {
+		padding-left: 3%;
+		padding-right: 3%
+	}
+	.head {
+		padding-top: 7%
+	}
+	.section {
+		padding-top: 8%
+	}
+}
+
+.head-img {
+	border-radius: 999%;
+	border: solid 3px var(--florence-text-color)
+}
+
+.florence-text {
+	color: var(--florence-text-color);
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.florence-text-btn:hover {
+	color: var(--florence-text-color);
+}
+
+.ht-margint {
+	margin-top: 40px
+}
+
+.name-text {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.head-desc {
+	font-size: 18px
+}
+
+.pr-text {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.pnf-text {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.about-text {
+	font-size: 18px
+}
+
+.florence-text-nc {
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.techs-name {
+	font-size: 16px
+}
+
+.career-title {
+	font-size: 18px
+}
+
+.career-desc {
+	font-size: 16px
+}
+
+.navbar-img {
+	cursor: pointer
+}
+
+.projects-card {
+	background-color: #1e293b;
+}
+
+.projects-title {
+	font-size: 18px
+}
+
+.projects-desc {
+	font-size: 16px
+}
+
+.tb-color-bg {
+	background-color: var(--florence-text-color);
+}
+
+.footer {
+	padding-bottom: 1%
+}
+
+.right-align {
+	float: right
+}
+
+.footer-icon {
+	font-size: 18px;
+}
+
+.navbar-item:hover {
+	background-color: #1e293b;
+	color: unset
+}
+
+.footer-banner {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.navbar {
+	backdrop-filter: blur(15px);
+}
+
+.projects-card-i {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
+
+.cursor-notallowed {
+	cursor: not-allowed
+}
+
+:root {
+    --body-bg: #111827;
+    --navbar-bg: #111827;
+    --head-img-bc: #1f2937;
+    --florence-text-color: #38385c;
+}
